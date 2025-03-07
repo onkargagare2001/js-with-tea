@@ -5,7 +5,7 @@ const user={
     [sym]:1,
     role:"xyz"
 }
-console.log(typeof user.sym);
+// console.log(typeof user.sym);
 
 // Object.freeze(user);  its freezes object changes after can not be done
 
@@ -34,3 +34,12 @@ console.log(typeof user.sym);
 // };
 
 // console.log(STATUS.SUCCESS === STATUS.FAILURE); // false
+
+// concat two objects
+const obj1={a:1,b:3};
+const obj2={d:23,f:34};
+
+// let objf=Object.assign(obj1,obj2); 
+let objf={...obj1,...obj2}; // suggestes way to concat two objects
+console.log(objf);
+
