@@ -41,5 +41,19 @@ const obj2={d:23,f:34};
 
 // let objf=Object.assign(obj1,obj2); 
 let objf={...obj1,...obj2}; // suggestes way to concat two objects
-console.log(objf);
+// console.log(objf);
 
+// let b=Object.keys(obj1);
+// let b=Object.values(obj1);
+let b=Object.entries(obj1);
+// console.log(b);
+
+
+//******* object destructure ****//
+const myObj={
+    name:"onkar",
+    age:23
+}
+// const {name:myName}=myObj
+const {name}=myObj
+console.log(name);
