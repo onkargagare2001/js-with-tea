@@ -2,11 +2,12 @@ const sym=Symbol();
 
 const user={
     name:"abc",
+    // [sym]:1,
     [sym]:1,
     role:"xyz"
 }
-// console.log(typeof user.sym);
-
+console.log(typeof [user.sym]);
+``
 // Object.freeze(user);  its freezes object changes after can not be done
 
 // created object
@@ -56,4 +57,4 @@ const myObj={
 }
 // const {name:myName}=myObj
 const {name}=myObj
-console.log(name);
+// console.log(name);
