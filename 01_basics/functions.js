@@ -6,15 +6,30 @@ function calcTotal(val1,val2, ...coldroolinput){
 
 
 // passing object in function
-let schema={
-  name:"onkar",
-  age:23
-}
+// let schema={
+//   name:"onkar",
+//   age:23
+// }
 
-function myFunc(anyObj){
-  console.log(`my name is ${anyObj.name}`)
-}
+// function myFunc(anyObj){
+//   console.log(`my name is ${anyObj.name}`)
+// }
 
-myFunc(schema);
+// myFunc(schema);
+
+// passing an arrays in a fuction
+
+// let myarray=[12,3,434,34]
+
+// function passarrayinfunction(value){
+//   console.log(value[1]);
+// }
+// passarrayinfunction(myarray);
+
+// we can directly pass an array through function
+// function passarrayinfunction(myarray){
+//    console.log(myarray[1]);
+//  }
+//   passarrayinfunction([12,23.43,34]);
 
 
