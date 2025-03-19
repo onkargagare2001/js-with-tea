@@ -1,0 +1,5 @@
+dom selecotr :
+>>if we use query selctor then it gives nodelist to you on which foreach,map reduce can not be applied
+>>in this case we have to convert them into an array
+// Array.from(nodelist stored variable)
+
